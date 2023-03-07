@@ -1,5 +1,5 @@
 * {
-  font-family: sans-serif;
+  font-family: "Sono", sans-serif;
   margin: 0px;
 }
 
@@ -159,6 +159,8 @@ section:nth-of-type(3) nav div {
   flex-direction: column;
   align-items: center;
   gap: 5px;
+  width: 300px;
+  overflow: hidden;
 }
 section:nth-of-type(3) nav div img {
   width: 300px;
@@ -166,6 +168,10 @@ section:nth-of-type(3) nav div img {
   border-radius: 10px;
   -o-object-fit: cover;
      object-fit: cover;
+  transition: all 0.5s;
+}
+section:nth-of-type(3) nav div img:hover {
+  scale: 1.1;
 }
 section:nth-of-type(3) nav div p {
   color: greenyellow;
